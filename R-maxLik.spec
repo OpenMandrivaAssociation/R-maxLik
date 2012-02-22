@@ -11,10 +11,9 @@ URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.1-0.tar.gz
 BuildArch:        noarch
 Requires:         R-core
-Requires:         R-miscTools 
-Requires:         R-sandwich 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-miscTools
-BuildRequires:    R-sandwich 
+Requires:         R-miscTools R-sandwich
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-miscTools R-sandwich
 
 %description
 Tools for Maximum Likelihood Estimation
