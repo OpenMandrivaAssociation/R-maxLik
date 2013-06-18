@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.1_0
-Release:          1
+Release:          2
 Summary:          Maximum Likelihood Estimation
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
